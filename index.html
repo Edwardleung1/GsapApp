@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>GSAP App</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!--nav closed-->
+        <div class="nav-closed">
+          <h3>Ivo</h3>
+          <ul class="nav-links">
+            <li class="nav-button">Shop</li>
+            <li>Kids</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <!--nav open-->
+        <div class="nav-open">
+          <!--Clothing section-->
+          <div class="clothing">
+            <h2>Clothing</h2>
+            <ul>
+              <li><a href="#">Jackets</a></li>
+              <li><a href="#">Jeans</a></li>
+              <li><a href="#">Underwear</a></li>
+              <li><a href="#">Shoes</a></li>
+            </ul>
+          </div>
+          <!--images section-->
+          <div class="nav-images">
+            <img src="./img/hoodie.jpg" alt="hoodie" />
+            <img src="./img/hats.jpg" alt="hat" />
+          </div>
+        </div>
+      </nav>
+      <!--cover image-->
+      <img class="cover" src="./img/long-cover.jpg" alt="cover-img" />
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
